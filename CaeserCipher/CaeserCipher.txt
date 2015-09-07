@@ -4,8 +4,9 @@
 	Input: a string type str
 	output: an error message if the option is not encode or decode, a string type encoded or decoded message  
 3. What are five representative test cases this component should pass?
+	(encode first, then use the output str of encode to decode) 
 	str = "hello"
-	str = ""
+	str = "nahnahnah"
 	str = "bazil"
 	str = "oanh"
 	str = "grinnellcollege"
