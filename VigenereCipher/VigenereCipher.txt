@@ -1,0 +1,12 @@
+1. What does this component do in a single sentence?
+	This program encrypts and decrypts messages using the Vigenere Cipher.
+2. What is the interface to this component? What are its inputs and outputs?
+	Input: a string type str and a string type key
+	output: an error message if the option is not encode or decode, or a string type encoded or decoded str  
+3. What are five representative test cases this component should pass?
+	(encode first, then use the output str of encode to decode) 
+	str = "aaaaaaaa"	key = "bcd"	 
+	str = "helloworld"	key = "hell" 	
+	str = "bazil"		key = "ab"		
+	str = "oanh"		key = "xy"		
+	str = "grinnellcollege" key = "bazil"	
