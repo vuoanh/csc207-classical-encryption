@@ -1,0 +1,11 @@
+1. What does this component do in a single sentence?
+	This program encrypts and decrypts messages using the Caeser Cipher.
+2. What is the interface to this component? What are its inputs and outputs?
+	Input: a string type str
+	output: an error message if the option is not encode or decode, a string type encoded or decoded message  
+3. What are five representative test cases this component should pass?
+	str = "hello"
+	str = ""
+	str = "bazil"
+	str = "oanh"
+	str = "grinnellcollege"
